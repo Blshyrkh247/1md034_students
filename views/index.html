@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELI-VERY</title>
+	        <title>Order burgers dude</title>
+    	    <meta charset="utf-8"/>
     </head>
-    <body>
-        <h1>Hello World!!!</h1>
-        <a href="/map" target="_blank">Open map in new window</a>.
+    	<body>
+      		<main>
+				<h1>Welcome to BurgerOnline</h1>
+      		</main>
+      	<section>
+			<h2>Select burger</h2>
+			<div>This is where you execute burger selection</div><br />
+	<table>
+	  <thead style="text-align:center">
+	    <tr>
+	      <th>The burnt burger</th>
+	      <th>The raw burger</th>
+	      <th>The cream burger</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr style="text-align:center">
+	      <td><img src="https://bigshotjason.files.wordpress.com/2014/09/tumblr_nbqu1chhmk1spy5cho1_1280.jpg?w=584" alt="Burnt burger" height="200" width="300"></td>
+	      <td><img src="https://foodsafetynewsfullservice.marlersites.com/files/2015/10/rare.hamburger-e1472574423989.jpg" alt="Raw burger" height="200" width="300"></td>
+	      <td><img src="https://www.bakemyday.se/wp-content/uploads/2018/10/5530_5540_5531_5541.png" alt="Burnt burger" height="200" width="300"></td>
+	    </tr>
+	    <tr>
+	      <td style="text-align:left">
+	<ul>
+	  <li>A very overcooked burger</li>
+	  <li>Tastes like coal and barbecue sauce</li>
+	  <li>The meat can be replaced with actual coal</li>
+	</ul>
+	      </td>
+	      
+	      <td style="text-align:left">
+	<ul>
+	  <li>A very undercooked burger</li>
+	  <li>Patty made of horse and chicken</li>
+	  <li>No vegetarian option</li>
+	</ul>
+	</td>
+	
+	      <td style="text-align:left">
+	<ul>
+	  <li>Not an actual burger</li>
+	  <li>May contain almonds</li>
+	  <li>The cream can be replaced with horse patty</li>
+	</ul>
+	</td>
+	  </tbody>
+	  </table>
+	</section>
+      <section>
+	<h2>Customer information</h2>
+	<div>This is where you provide necessary information</div>
+	<h3>Delivery information:</h3>
+	<form>
+	  <p>
+    <label for="Full name">Full name</label><br>
+    <input type="text" id="Full name" name="fn" required="required" placeholder="First- and Last name" />
+</p>
+<p>
+    <label for="E-mail">E-mail</label><br>
+    <input type="text" id="E-mail" name="Em" required="required" placeholder="E-mail address" />
+</p>
+<p>
+    <label for="Street">Street</label><br>
+    <input type="text" id="Street" name="St" required="required" placeholder="Street name" />
+</p>
+<p>
+    <label for="House">House</label><br>
+    <input type="number" id="House" name="Hn" required="required" placeholder="House number" />
+</p>
+
+<p>
+    <label for="Payment options">Payment options</label><br />
+    <select id="Payment options" name="rcp">
+        <option>Credit card</option>
+        <option>Swish</option>
+        <option>PayPal</option>
+        <option>Blood</option>
+    </select>
+</p>
+	  <p>
+	    <label for="Gender">Gender</label><br/>
+  <input type="radio" name="Gender" value="male" checked> Male<br>
+  <input type="radio" name="Gender" value="female"> Female<br>
+  <input type="radio" name="Gender" value="other"> Non-binary<br>
+  <input type="radio" name="Gender" value="other"> Undisclosed<br>
+	  </p>
+        </form>
+	
+      </section>
+<button type="submit"><img src="https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/3585495361555590627-512.png" height="30" width="40" />Send Info</button>
+      <footer>
+	&copy 2020 Burgers from hell Inc.
+      </footer>
     </body>
 </html>
