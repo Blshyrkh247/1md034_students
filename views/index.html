@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
+	 <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 	        <title>Order burgers dude</title>
     	    <meta charset="utf-8"/>
     </head>
     	<body>
-      		<main>
-				<h1>Welcome to BurgerOnline</h1>
-      		</main>
-      	<section>
+      		<header>
+				<h1><span id="headline">Welcome to BurgerOnline</span></h1>
+				<img src="https://static.thatsup.co/content/img/article/17/dec/%C3%B6stermalms-b%C3%A4sta-barer.jpg" id="image">
+			</header>
+      	<section id="burgerSection">
 			<h2>Select burger</h2>
-			<div>This is where you execute burger selection</div><br />
-	<table>
-	  <thead style="text-align:center">
-	    <tr>
-	      <th>The burnt burger</th>
-	      <th>The raw burger</th>
-	      <th>The cream burger</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr style="text-align:center">
-	      <td><img src="https://bigshotjason.files.wordpress.com/2014/09/tumblr_nbqu1chhmk1spy5cho1_1280.jpg?w=584" alt="Burnt burger" height="200" width="300"></td>
-	      <td><img src="https://foodsafetynewsfullservice.marlersites.com/files/2015/10/rare.hamburger-e1472574423989.jpg" alt="Raw burger" height="200" width="300"></td>
-	      <td><img src="https://www.bakemyday.se/wp-content/uploads/2018/10/5530_5540_5531_5541.png" alt="Burnt burger" height="200" width="300"></td>
-	    </tr>
-	    <tr>
-	      <td style="text-align:left">
-	<ul>
-	  <li>A very overcooked burger</li>
-	  <li>Tastes like coal and barbecue sauce</li>
-	  <li>The meat can be replaced with actual coal</li>
-	</ul>
-	      </td>
-	      
-	      <td style="text-align:left">
-	<ul>
-	  <li>A very undercooked burger</li>
-	  <li>Patty made of horse and chicken</li>
-	  <li>No vegetarian option</li>
-	</ul>
-	</td>
-	
-	      <td style="text-align:left">
-	<ul>
-	  <li>Not an actual burger</li>
-	  <li>May contain almonds</li>
-	  <li>The cream can be replaced with horse patty</li>
-	</ul>
-	</td>
-	  </tbody>
-	  </table>
+			<p>This is where you execute burger selection</p>
+			<div class="wrapper">
+				<div class="box a">The burnt burger</div>
+                <div class="box b"><img src="https://bigshotjason.files.wordpress.com/2014/09/tumblr_nbqu1chhmk1spy5cho1_1280.jpg?w=584" alt="Burnt burger" height="200" width="300"></div>
+				<div class="box c">	<ul>
+                    <li>A very overcooked burger</li>
+                    <li>Tastes like coal and barbecue sauce</li>
+                    <li>The meat can be replaced with actual coal</li>
+                    <li class="allergy"><span id="lactose1">Lactose</span> and <span id="gluten1">gluten</span> free</li>
+                </ul></div>
+                <div class="box d">The raw burger</div>
+                <div class="box e"><img src="https://foodsafetynewsfullservice.marlersites.com/files/2015/10/rare.hamburger-e1472574423989.jpg" alt="Raw burger" height="200" width="300"></div>
+                <div class="box f"><ul>
+                    <li>A very undercooked burger</li>
+                    <li>Patty made of horse and chicken</li>
+                    <li>No vegetarian option</li>
+                    <li class="allergy">Does contain <span id="gluten2">gluten</span> and <span id="lactose2">lactose</span></li>
+                </ul></div>
+                <div class="box g">The cream burger</div>
+                <div class="box h"><img src="https://www.bakemyday.se/wp-content/uploads/2018/10/5530_5540_5531_5541.png" alt="Burnt burger" height="200" width="300"></div>
+                <div class="box i">	<ul>
+                    <li>A very overcooked burger</li>
+                    <li>Tastes like coal and barbecue sauce</li>
+                    <li>The meat can be replaced with actual coal</li>
+                    <li class="allergy"><span id="lactose3">Lactose</span> and <span id="gluten3">gluten</span> free</li>
+                </ul></div>
+			</div>
 	</section>
-      <section>
+      <section id="customerSection">
 	<h2>Customer information</h2>
 	<div>This is where you provide necessary information</div>
 	<h3>Delivery information:</h3>
@@ -95,7 +84,7 @@
       </section>
 <button type="submit"><img src="https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/3585495361555590627-512.png" height="30" width="40" />Send Info</button>
       <footer>
-	&copy 2020 Burgers from hell Inc.
+		  <p>&copy 2020 Burgers from hell Inc.</p>
       </footer>
     </body>
 </html>
