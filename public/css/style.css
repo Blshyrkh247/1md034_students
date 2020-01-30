@@ -51,3 +51,7 @@ header {
     opacity: 0.75;
     width: 100%;
 }
+.headline {
+    position: absolute;
+    padding-left: 10px;
+}
