@@ -8,7 +8,6 @@ body {
 .allergy {
     color: #ff5500;
 }
-
 #gluten {
     text-transform: uppercase;
 }
@@ -17,4 +16,11 @@ body {
 }
 #almonds {
     text-transform: uppercase;
+}
+#burgerSection {
+    background-color: black;
+    color: white;
+}
+#customerSection {
+
 }
