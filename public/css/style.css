@@ -3,4 +3,18 @@
  /* Change font for the body section */
 body {
     font-family: arial;
+    font-size: 125%;
+}
+.allergy {
+    color: #ff5500;
+}
+
+#gluten {
+    text-transform: uppercase;
+}
+#lactose {
+    text-transform: uppercase;
+}
+#almonds {
+    text-transform: uppercase;
 }
